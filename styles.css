@@ -17,8 +17,8 @@ body {
 
 .qr-container {
     background-color: hsl(0, 0%, 100%);
-    padding: 20px;
-    max-width: 260px;
+    padding: 17px;
+    max-width: 290px;
     border-radius: 25px;
     border-radius: 25px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -27,16 +27,19 @@ body {
 .img {
     border-radius: 15px;
     width: 100%;
+    /* padding: 1px; */
 }
 
 .title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
     text-align: center;
+    margin-top: 16px;
 }
 
 .text {
     color: hsl(220, 15%, 55%);
     text-align: center;
-    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 40px;
 }
